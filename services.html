@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Medcliff | Pharma</title>
+        <meta charset="utf-8">
+ <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+		<link href="css/style.css" rel="stylesheet">
+        <link href="css/flexbox.css" rel="stylesheet">
+        <link href="normalize/normalize.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+
+
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+ .gallery{
+	border-radius: 8px;
+}
+div.gallery img {
+    width: 100%;
+    //height: auto;
+    height: 150px;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    //border-radius: 20px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 19.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    //height: 150px;
+}
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+
+
+
+    </head>
+
+
+<body>
+<header>
+<div class="containr">
+<h2>Medicliff Pharma</h2>
+<img src="" alt="" class="logo">
+
+
+  
+
+
+
+
+
+  <div id="mySidenav" class="sidenav">
+<!-- for smaller screen sizes -->
+<nav>
+	<ul class="ul">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="index.html"><li class="li">Home</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="services.html"><li class="li">Services</li></a>
+      <a href="contacts.html"><li class="li">contacts</li></a>
+</ul>
+
+
+</nav>
+
+
+  </div>
+
+<span style="font-size:30px;cursor:pointer;color:dodgerblue;margin:25px;" onclick="openNav()">&#9776;</span>
+
+
+</header>
+
+
+  
+
+<nav >
+	<ul class="ll">
+
+	  <a href="index.html"><li class="li">Home</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="services.html"><li class="li">Services</li></a>
+      <a href="contacts.html"><li class="li">Contacts</li></a>
+   </ul>
+</nav>
+
+ 
+
+<!--
+
+<h3>EXPERTISE SERVICES</h3> 
+<ul>
+ <li>Experience in the specialty field more than a decade</li>
+<li>R & Din supply chain management</li> 
+</ul>
+-->
+<h3 style="margin-top:20px;">Products And Services</h3>
+ 
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/1.jpg">
+      <img src="img/1.jpg" alt="Trolltunga Norway" width="300" height="400" style="border-radius: 8px;">
+    </a>
+    <div class="desc">Pharmaceuticals</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/2.jpg">
+      <img src="img/2.jpg" alt="Forest" width="600" height="400" style="border-radius: 8px;">
+    </a>
+    <div class="desc">Surgical Supplies</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/3.jpg">
+      <img src="img/3.jpg" alt="Northern Lights" width="600" height="400" style="border-radius: 8px;">
+    </a>
+    <div class="desc">Medical Supplies</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/4.jpg">
+      <img src="img/4.jpg" alt="Mountains" width="600" height="400" style="border-radius: 8px;">
+    </a>
+    <div class="desc">Hospital Equipment</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/5.jpg">
+      <img src="img/5.jpg" alt="Mountains" width="600" height="400" style="border-radius: 8px;">
+    </a>
+    <div class="desc">Rehab Supplies</div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+<div class="sevi"></div>
+
+
+<footer class="main-footer">
+  <p>&copy;Medicliff Pharma</p>
+  <img  src="img/twitter.png" alt="twitter icon" class="twitter-logo">
+  <img  src="img/facebook.png" alt="facebook icon" class="facebook-logo">
+</footer>
+
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0"; 
+}
+</script>
+
+</body>
+</html>
